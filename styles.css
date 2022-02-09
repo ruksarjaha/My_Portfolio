@@ -58,10 +58,9 @@ span{
 }
 .nav-links li a:hover::after{
     width: 100%;
-    
-
 }
 
+/* Content section */
 
 .content{
     position: absolute;

@@ -21,23 +21,120 @@
         <nav>
             <h1 class="logo">Portfo<span>lio</span></h1>
             <ul class="nav-links">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#About Me">About Me</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#content-section" class="link active">Home</a></li>
+                <li><a href="#projects-section" class="link">Projects</a></li>
+                <li><a href="#skills-section" class="link">Skills</a></li>
+                <li><a href="#about-section" class="link">About Me</a></li>
+                <li><a href="#contact-section" class="link">Contact</a></li>
             </ul>
         </nav>
-        <div class="content">
+        <div class="content" id="content-section">
             <h1>Hi, <br>
                 I'm Ruksar.<br>
                 I'm a Full Stack Developer.
             </h1>
-            <button type="button"><a href="#contact">Get in Touch</a></button>
-
-        </div>
+            <button type="button"><a href="#contact-section">Get in Touch</a></button>
         
+        </div>
+         
     </div>
+    <div>
+        <section class="about" id="about-section">
+            <video autoplay loop class="back-video" muted plays-inline>
+                <source src="video/video.mp4" type="video/mp4">
+            </video>
+            <h2 class="heading">About <span class="highlight">Me</span></h2>
+       
+            <p class="sub-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque provident voluptatem repudiandae ipsam esse. Numquam, sapiente consequuntur fuga dolorem nobis vitae voluptate iure ducimus amet est nisi fugit animi non. Harum praesentium voluptatem nostrum fugiat quae quas rerum voluptatum blanditiis nam facilis provident cumque eos quod tenetur sit incidunt quia voluptates, qui, soluta cum unde minus omnis. Placeat perspiciatis mollitia neque illo ea. Eveniet molestias natus fugiat odio eum ducimus mollitia eos enim commodi! Sapiente beatae natus, impedit, cum vel repellat quod quos accusantium odit culpa, eum rerum facere debitis ipsa totam molestias quam quaerat esse iste expedita laboriosam fugiat? Doloremque, repudiandae tenetur accusamus temporibus atque necessitatibus laborum alias. Ullam accusantium incidunt voluptatum ad. Id enim dolores et placeat ratione qui, laboriosam tempore quasi reprehenderit consequuntur minima obcaecati est pariatur temporibus blanditiis. Voluptate, nobis. Qui dicta cum tempora repellendus temporibus blanditiis nam dolores nulla praesentium facilis molestias, culpa vero assumenda eius enim? Repellendus ad nulla obcaecati repudiandae nesciunt ea excepturi porro sint? Officiis ipsum rerum asperiores perspiciatis quas. Corporis nulla officia error, in alias, placeat odio quo, nemo earum cumque quod provident ratione fugiat inventore a cupiditate aspernatur praesentium! Asperiores mollitia cupiditate voluptates neque dolor numquam veritatis nihil fuga nobis.</p>
+            <div class="seperator"></div>
+        </section>
+    </div>  
+    <div>
+        <section class="skills" id="skills-section">
+            <video autoplay loop class="back-video" muted plays-inline>
+                <source src="video/video.mp4" type="video/mp4">
+            </video> 
+            <h2 class="heading">Skill<span class="highlight">s</span></h2>
+            
+            <div class="skill-container">
+                <div class="skill-card" style="--bg: #ff3d00">
+                   <p>HTML</p> 
+                </div>
+                <div class="skill-card" style="--bg: #ff3d00">
+                    <p>CSS</p> 
+                 </div>
+                 <div class="skill-card" style="--bg: #ff3d00">
+                    <p>JavaScript</p> 
+                 </div>
+                 <div class="skill-card" style="--bg: #ff3d00">
+                    <p>BootStrap</p> 
+                 </div>
+                 <div class="skill-card large" style="--bg: #ff3d00">
+                    <p>ReactJS</p> 
+                 </div>
+                 <div class="skill-card large" style="--bg: #ff3d00">
+                    <p>NodeJS</p> 
+                 </div>
+                 <div class="skill-card" style="--bg: #ff3d00">
+                    <p>Java</p> 
+                 </div>
+                 <div class="skill-card" style="--bg: #ff3d00">
+                    <p>MySQL</p> 
+                 </div>
+                 <div class="skill-card" style="--bg: #ff3d00">
+                    <p>Python</p> 
+                 </div>
+                 <div class="skill-card" style="--bg: #ff3d00">
+                    <p>Tableau</p> 
+                 </div>
+
+            </div>
+        </section>
+    </div>
+    <div>
+        <section class="projects" id="projects-section">
+            <video autoplay loop class="back-video" muted plays-inline>
+                <source src="video/video.mp4" type="video/mp4">
+            </video> 
+            <h2 class="heading">Project<span class="highlight">s</span></h2> 
+            <div class="seperator"></div>
+            <div class="filters">
+                <button class="filter-btn active" id="all">All</button>
+                <button class="filter-btn" id="ReactJS">ReactJS</button>
+                <button class="filter-btn" id="JavaScript">JavaScript</button>
+                <button class="filter-btn" id="HTML">HTML</button>
+                <button class="filter-btn" id="CSS">CSS</button>
+            </div>
+            <div class="project-container">
+                
+                </div>  
+            </div>
+        </section>
+    </div>
+    <div>
+        <section class="contact" id="contact-section">
+            <video autoplay loop class="back-video" muted plays-inline>
+                <source src="video/video.mp4" type="video/mp4">
+            </video> 
+            <h2 class="heading">Get in <span class="highlight">Touch</span></h2>
+            <p class="sub-heading">Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+            <div class="seperator"></div>
+
+            <div class="contact-form">
+                <div class="name">
+                    <input type="text" class="first-name" required placeholder="First Name">
+                    <input type="text" class="last-name" required placeholder="Last Name">
+
+                </div>
+                <input type="email" required class="eamil" required placeholder="email">
+                <textarea class="message" placeholder="Your Message" required></textarea>
+                <button class="btn contact-btn">Contact</button>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">Made with love by Ruksar Jaha Mohammad</footer>
+    
+    
 
     
                 
@@ -48,8 +145,8 @@
     
     
 
-    
-
+<script src="Projects.js"></script>
+<script src="Portfolio.js"></script>
     
 </body>
 </html>

@@ -121,13 +121,15 @@ span{
     width: 100%;
     height: auto;
     padding: 50px 10vw;
+    
 }
 .heading{
     text-align: center;
     font-weight: 500;
     font-size: 3.5rem;
     text-transform: capitalize;
-    color: #fff
+    color: #fff;
+    padding: 30px;
 }
 /*.about img{
     padding: 30px 50% 20px 20px;
@@ -144,6 +146,7 @@ span{
     width: 25%;
     margin: 20px auto;
     position: relative;
+    color: #ff3d00;
 }
 
 /* skills */
@@ -156,6 +159,7 @@ span{
     grid-gap: 20px;
     width: 80%;
     margin: 0 auto;
+    padding: 30px;
 }
 .skill-card{
     height: 200px;
@@ -185,6 +189,7 @@ span{
     position: relative;
     padding: 50px 10vw;
 }
+
 .filters{
     width: fit-content;
     display: block;
@@ -263,6 +268,7 @@ span{
     position: relative;
     margin: 0 auto;
     padding: 20px;
+    
 }
 .contact-form input, .message{
     width: 100%;
@@ -305,5 +311,6 @@ span{
     text-transform: capitalize;
     line-height: 30px;
     color:#fff;
-    padding: 30px;
+    padding: 30px auto;
+    
 }

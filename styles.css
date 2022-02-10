@@ -334,8 +334,13 @@ span{
 }
 
 
-/* tabelt view */
- @media(max-width: 1440px){
+/*tabelt view */
+ @media(max-width: 320px){
+     html{
+         font-size: 5px;
+     }
+ }
+ @media(min-width: 1024px){
      html{
          font-size: 14px;
      }
